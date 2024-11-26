@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1845A2732CF5A3B500BCAB8E /* MeansChatIOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845A2722CF5A3B500BCAB8E /* MeansChatIOApp.swift */; };
+		1845A2752CF5A3B500BCAB8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845A2742CF5A3B500BCAB8E /* ContentView.swift */; };
+		1845A2772CF5A3B700BCAB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1845A2762CF5A3B700BCAB8E /* Assets.xcassets */; };
+		1845A27A2CF5A3B700BCAB8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1845A2792CF5A3B700BCAB8E /* Preview Assets.xcassets */; };
+		1845A2842CF5A3B800BCAB8E /* MeansChatIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845A2832CF5A3B800BCAB8E /* MeansChatIOTests.swift */; };
+		1845A28E2CF5A3B800BCAB8E /* MeansChatIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845A28D2CF5A3B800BCAB8E /* MeansChatIOUITests.swift */; };
+		1845A2902CF5A3B800BCAB8E /* MeansChatIOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845A28F2CF5A3B800BCAB8E /* MeansChatIOUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1845A2802CF5A3B800BCAB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1845A2672CF5A3B500BCAB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1845A26E2CF5A3B500BCAB8E;
+			remoteInfo = MeansChatIO;
+		};
+		1845A28A2CF5A3B800BCAB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1845A2672CF5A3B500BCAB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1845A26E2CF5A3B500BCAB8E;
+			remoteInfo = MeansChatIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1845A26F2CF5A3B500BCAB8E /* MeansChatIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeansChatIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845A2722CF5A3B500BCAB8E /* MeansChatIOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansChatIOApp.swift; sourceTree = "<group>"; };
+		1845A2742CF5A3B500BCAB8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1845A2762CF5A3B700BCAB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1845A2792CF5A3B700BCAB8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1845A27F2CF5A3B800BCAB8E /* MeansChatIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeansChatIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845A2832CF5A3B800BCAB8E /* MeansChatIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansChatIOTests.swift; sourceTree = "<group>"; };
+		1845A2892CF5A3B800BCAB8E /* MeansChatIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeansChatIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845A28D2CF5A3B800BCAB8E /* MeansChatIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansChatIOUITests.swift; sourceTree = "<group>"; };
+		1845A28F2CF5A3B800BCAB8E /* MeansChatIOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansChatIOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1845A26C2CF5A3B500BCAB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845A27C2CF5A3B800BCAB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845A2862CF5A3B800BCAB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1845A2662CF5A3B500BCAB8E = {
+			isa = PBXGroup;
+			children = (
+				1845A2712CF5A3B500BCAB8E /* MeansChatIO */,
+				1845A2822CF5A3B800BCAB8E /* MeansChatIOTests */,
+				1845A28C2CF5A3B800BCAB8E /* MeansChatIOUITests */,
+				1845A2702CF5A3B500BCAB8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1845A2702CF5A3B500BCAB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1845A26F2CF5A3B500BCAB8E /* MeansChatIO.app */,
+				1845A27F2CF5A3B800BCAB8E /* MeansChatIOTests.xctest */,
+				1845A2892CF5A3B800BCAB8E /* MeansChatIOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1845A2712CF5A3B500BCAB8E /* MeansChatIO */ = {
+			isa = PBXGroup;
+			children = (
+				1845A2722CF5A3B500BCAB8E /* MeansChatIOApp.swift */,
+				1845A2742CF5A3B500BCAB8E /* ContentView.swift */,
+				1845A2762CF5A3B700BCAB8E /* Assets.xcassets */,
+				1845A2782CF5A3B700BCAB8E /* Preview Content */,
+			);
+			path = MeansChatIO;
+			sourceTree = "<group>";
+		};
+		1845A2782CF5A3B700BCAB8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1845A2792CF5A3B700BCAB8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1845A2822CF5A3B800BCAB8E /* MeansChatIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				1845A2832CF5A3B800BCAB8E /* MeansChatIOTests.swift */,
+			);
+			path = MeansChatIOTests;
+			sourceTree = "<group>";
+		};
+		1845A28C2CF5A3B800BCAB8E /* MeansChatIOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1845A28D2CF5A3B800BCAB8E /* MeansChatIOUITests.swift */,
+				1845A28F2CF5A3B800BCAB8E /* MeansChatIOUITestsLaunchTests.swift */,
+			);
+			path = MeansChatIOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1845A26E2CF5A3B500BCAB8E /* MeansChatIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845A2932CF5A3B800BCAB8E /* Build configuration list for PBXNativeTarget "MeansChatIO" */;
+			buildPhases = (
+				1845A26B2CF5A3B500BCAB8E /* Sources */,
+				1845A26C2CF5A3B500BCAB8E /* Frameworks */,
+				1845A26D2CF5A3B500BCAB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeansChatIO;
+			productName = MeansChatIO;
+			productReference = 1845A26F2CF5A3B500BCAB8E /* MeansChatIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1845A27E2CF5A3B800BCAB8E /* MeansChatIOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845A2962CF5A3B800BCAB8E /* Build configuration list for PBXNativeTarget "MeansChatIOTests" */;
+			buildPhases = (
+				1845A27B2CF5A3B800BCAB8E /* Sources */,
+				1845A27C2CF5A3B800BCAB8E /* Frameworks */,
+				1845A27D2CF5A3B800BCAB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1845A2812CF5A3B800BCAB8E /* PBXTargetDependency */,
+			);
+			name = MeansChatIOTests;
+			productName = MeansChatIOTests;
+			productReference = 1845A27F2CF5A3B800BCAB8E /* MeansChatIOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1845A2882CF5A3B800BCAB8E /* MeansChatIOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845A2992CF5A3B800BCAB8E /* Build configuration list for PBXNativeTarget "MeansChatIOUITests" */;
+			buildPhases = (
+				1845A2852CF5A3B800BCAB8E /* Sources */,
+				1845A2862CF5A3B800BCAB8E /* Frameworks */,
+				1845A2872CF5A3B800BCAB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1845A28B2CF5A3B800BCAB8E /* PBXTargetDependency */,
+			);
+			name = MeansChatIOUITests;
+			productName = MeansChatIOUITests;
+			productReference = 1845A2892CF5A3B800BCAB8E /* MeansChatIOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1845A2672CF5A3B500BCAB8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1845A26E2CF5A3B500BCAB8E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1845A27E2CF5A3B800BCAB8E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1845A26E2CF5A3B500BCAB8E;
+					};
+					1845A2882CF5A3B800BCAB8E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1845A26E2CF5A3B500BCAB8E;
+					};
+				};
+			};
+			buildConfigurationList = 1845A26A2CF5A3B500BCAB8E /* Build configuration list for PBXProject "MeansChatIO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1845A2662CF5A3B500BCAB8E;
+			productRefGroup = 1845A2702CF5A3B500BCAB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1845A26E2CF5A3B500BCAB8E /* MeansChatIO */,
+				1845A27E2CF5A3B800BCAB8E /* MeansChatIOTests */,
+				1845A2882CF5A3B800BCAB8E /* MeansChatIOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1845A26D2CF5A3B500BCAB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845A27A2CF5A3B700BCAB8E /* Preview Assets.xcassets in Resources */,
+				1845A2772CF5A3B700BCAB8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845A27D2CF5A3B800BCAB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845A2872CF5A3B800BCAB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1845A26B2CF5A3B500BCAB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845A2752CF5A3B500BCAB8E /* ContentView.swift in Sources */,
+				1845A2732CF5A3B500BCAB8E /* MeansChatIOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845A27B2CF5A3B800BCAB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845A2842CF5A3B800BCAB8E /* MeansChatIOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845A2852CF5A3B800BCAB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845A28E2CF5A3B800BCAB8E /* MeansChatIOUITests.swift in Sources */,
+				1845A2902CF5A3B800BCAB8E /* MeansChatIOUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1845A2812CF5A3B800BCAB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1845A26E2CF5A3B500BCAB8E /* MeansChatIO */;
+			targetProxy = 1845A2802CF5A3B800BCAB8E /* PBXContainerItemProxy */;
+		};
+		1845A28B2CF5A3B800BCAB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1845A26E2CF5A3B500BCAB8E /* MeansChatIO */;
+			targetProxy = 1845A28A2CF5A3B800BCAB8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1845A2912CF5A3B800BCAB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1845A2922CF5A3B800BCAB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1845A2942CF5A3B800BCAB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeansChatIO/Preview Content\"";
+				DEVELOPMENT_TEAM = JHL639983G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1845A2952CF5A3B800BCAB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeansChatIO/Preview Content\"";
+				DEVELOPMENT_TEAM = JHL639983G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1845A2972CF5A3B800BCAB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JHL639983G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeansChatIO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeansChatIO";
+			};
+			name = Debug;
+		};
+		1845A2982CF5A3B800BCAB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JHL639983G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeansChatIO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeansChatIO";
+			};
+			name = Release;
+		};
+		1845A29A2CF5A3B800BCAB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JHL639983G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeansChatIO;
+			};
+			name = Debug;
+		};
+		1845A29B2CF5A3B800BCAB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JHL639983G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeansChatIO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1845A26A2CF5A3B500BCAB8E /* Build configuration list for PBXProject "MeansChatIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845A2912CF5A3B800BCAB8E /* Debug */,
+				1845A2922CF5A3B800BCAB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1845A2932CF5A3B800BCAB8E /* Build configuration list for PBXNativeTarget "MeansChatIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845A2942CF5A3B800BCAB8E /* Debug */,
+				1845A2952CF5A3B800BCAB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1845A2962CF5A3B800BCAB8E /* Build configuration list for PBXNativeTarget "MeansChatIOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845A2972CF5A3B800BCAB8E /* Debug */,
+				1845A2982CF5A3B800BCAB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1845A2992CF5A3B800BCAB8E /* Build configuration list for PBXNativeTarget "MeansChatIOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845A29A2CF5A3B800BCAB8E /* Debug */,
+				1845A29B2CF5A3B800BCAB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1845A2672CF5A3B500BCAB8E /* Project object */;
+}
