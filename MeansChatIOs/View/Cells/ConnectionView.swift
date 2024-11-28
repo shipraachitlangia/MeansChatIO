@@ -24,7 +24,7 @@ struct ConnectionView: View {
                 VStack(alignment: .leading) {
                     Text(name)
                         .foregroundStyle(.white)
-                        .font(.system(size: 16))
+                        .font(.custom("Fira Code", size: 16))
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     
                     HStack {

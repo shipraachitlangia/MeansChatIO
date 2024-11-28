@@ -13,10 +13,11 @@ struct TextFieldWithTitleView: View {
     @Binding var text: String
     var isPasswordTextField: Bool = false
     @State private var isPasswordVisible: Bool = true
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text(title)
-                .font(.system(size: 20))
+                .font(.custom( "Fira Code" ,size: 20))
                 .fontWeight(.semibold)
                 .foregroundStyle(Color(.TextFieldTitleColor))
             HStack {
@@ -27,6 +28,8 @@ struct TextFieldWithTitleView: View {
                         prompt: Text(placeholder)
                             .foregroundColor(Color(.SubTitleColor))
                     )
+                    .foregroundColor(Color(.white))
+
                 }
                 else {
                     TextField(
@@ -35,6 +38,8 @@ struct TextFieldWithTitleView: View {
                         prompt: Text(placeholder)
                             .foregroundColor(Color(.SubTitleColor))
                     )
+                    .foregroundColor(Color(.white))
+
                 }
                 
                 if isPasswordTextField {

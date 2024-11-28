@@ -22,7 +22,7 @@ struct NoDataView: View {
                 .foregroundStyle(.white)
             
             Text("No channels available")
-                .font(.system(size: 20))
+                .font(.custom( "Fira Code" ,size: 20))
                 .padding(2)
                 .foregroundStyle(Color(.SubTitleColor))
             

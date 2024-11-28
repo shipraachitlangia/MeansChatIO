@@ -15,13 +15,13 @@ struct TwoVerticalTextView: View {
         HStack {
             VStack(alignment: .leading) {
                 Text(title)
-                    .font(.system(size: 34))
+                    .font(.custom( "Fira Code" ,size: 34))
                     .fontWeight(.bold)
                     .foregroundStyle(Color(.white))
                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 1, trailing: 0))
                 
                 Text(subTitle)
-                    .font(.system(size: 16))
+                    .font(.custom( "Fira Code" ,size: 16))
                     .foregroundStyle(Color(.SubTitleColor))
             }
             Spacer()

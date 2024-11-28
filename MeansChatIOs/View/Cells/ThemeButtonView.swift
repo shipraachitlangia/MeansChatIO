@@ -18,7 +18,7 @@ struct ThemeButtonView: View {
                 Spacer()
                 
                 Text(title)
-                    .font(.system(size: 20))
+                    .font(.custom( "Fira Code" ,size: 20))
                     .foregroundStyle(Color(.ButtonTitleColor))
                     .padding()
                 

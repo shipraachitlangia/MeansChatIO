@@ -40,6 +40,8 @@
 		188ECA032CF763DF00D4F499 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 188ECA022CF763DF00D4F499 /* StreamChat */; };
 		188ECA052CF763DF00D4F499 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 188ECA042CF763DF00D4F499 /* StreamChatUI */; };
 		188ECA072CF76C8C00D4F499 /* GoogleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ECA062CF76C8C00D4F499 /* GoogleButtonView.swift */; };
+		18CAFF672CF82C9200E29FF8 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAFF662CF82C9200E29FF8 /* ContactViewModel.swift */; };
+		18CAFF6A2CF82D0600E29FF8 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAFF692CF82D0600E29FF8 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,13 @@
 		188EC9FB2CF75DAE00D4F499 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		188EC9FD2CF75DC700D4F499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		188ECA062CF76C8C00D4F499 /* GoogleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButtonView.swift; sourceTree = "<group>"; };
+		18CAFF662CF82C9200E29FF8 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		18CAFF692CF82D0600E29FF8 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		18CAFF6B2CF85B1700E29FF8 /* FiraCode-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Regular.ttf"; sourceTree = "<group>"; };
+		18CAFF6C2CF85B1800E29FF8 /* FiraCode-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-SemiBold.ttf"; sourceTree = "<group>"; };
+		18CAFF6D2CF85B1800E29FF8 /* FiraCode-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Light.ttf"; sourceTree = "<group>"; };
+		18CAFF6E2CF85B1800E29FF8 /* FiraCode-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Medium.ttf"; sourceTree = "<group>"; };
+		18CAFF6F2CF85B1800E29FF8 /* FiraCode-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +156,7 @@
 		188EC99C2CF75BA800D4F499 /* MeansChatIOs */ = {
 			isa = PBXGroup;
 			children = (
+				18CAFF682CF82CF800E29FF8 /* Model */,
 				188EC9FD2CF75DC700D4F499 /* Info.plist */,
 				188EC9FB2CF75DAE00D4F499 /* GoogleService-Info.plist */,
 				188EC9F02CF75C9900D4F499 /* ViewModel */,
@@ -159,6 +169,7 @@
 				188EC9C92CF75C1E00D4F499 /* RegisterView.swift */,
 				188EC99D2CF75BA800D4F499 /* MeansChatIOsApp.swift */,
 				188EC99F2CF75BA800D4F499 /* ContentView.swift */,
+				18CAFF702CF85B2100E29FF8 /* Fonts */,
 				188EC9A12CF75BAA00D4F499 /* Assets.xcassets */,
 				188EC9A32CF75BAA00D4F499 /* Preview Content */,
 			);
@@ -229,8 +240,29 @@
 			children = (
 				188EC9ED2CF75C9400D4F499 /* ChatViewModel.swift */,
 				188EC9EC2CF75C9400D4F499 /* LoginViewModel.swift */,
+				18CAFF662CF82C9200E29FF8 /* ContactViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18CAFF682CF82CF800E29FF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18CAFF692CF82D0600E29FF8 /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18CAFF702CF85B2100E29FF8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18CAFF6F2CF85B1800E29FF8 /* FiraCode-Bold.ttf */,
+				18CAFF6D2CF85B1800E29FF8 /* FiraCode-Light.ttf */,
+				18CAFF6E2CF85B1800E29FF8 /* FiraCode-Medium.ttf */,
+				18CAFF6B2CF85B1700E29FF8 /* FiraCode-Regular.ttf */,
+				18CAFF6C2CF85B1800E29FF8 /* FiraCode-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,8 +410,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				188EC9DF2CF75C2A00D4F499 /* PlainTextButtonView.swift in Sources */,
+				18CAFF672CF82C9200E29FF8 /* ContactViewModel.swift in Sources */,
 				188EC9CE2CF75C1E00D4F499 /* ChatMessageView.swift in Sources */,
 				188EC9E92CF75C7C00D4F499 /* ColorConstants.swift in Sources */,
+				18CAFF6A2CF82D0600E29FF8 /* Contact.swift in Sources */,
 				188EC9E12CF75C2A00D4F499 /* TextWithButtonView.swift in Sources */,
 				188EC9DE2CF75C2A00D4F499 /* LogoView.swift in Sources */,
 				188EC9D02CF75C1E00D4F499 /* ConnectionsView.swift in Sources */,

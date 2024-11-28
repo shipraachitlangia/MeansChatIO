@@ -12,6 +12,8 @@ struct ConnectionsView: View {
     @State private var isNoData: Bool = false
     @State private var isToPresentChat: Bool = false
     @State private var isToPresentContact: Bool = false
+    @EnvironmentObject var loginViewModel: LoginViewModel
+    @Binding var isPresentRegister: Bool
 
     var body: some View {
         VStack {
@@ -23,6 +25,8 @@ struct ConnectionsView: View {
                 Spacer()
                 
                 Button(action: {
+                    loginViewModel.signOut()
+                    isPresentRegister.toggle()
                     dismiss()
                 }, label: {
                     Image(systemName: "square.and.arrow.down")
@@ -91,6 +95,7 @@ struct ConnectionsView: View {
             .padding()
             
         }
+        .navigationBarBackButtonHidden()
         .frame(minWidth: 0, maxWidth: .infinity)
         .frame(minHeight: 0, maxHeight: .infinity)
         .background(Color(.BackgroundColor))
@@ -103,6 +108,7 @@ struct ConnectionsView: View {
     }
 }
 
-#Preview {
-    ConnectionsView()
-}
+//#Preview {
+//    @State var isPresentRegister: Bool = true
+//   // ConnectionsView(isPresentRegister: $isPresentRegister)
+//}

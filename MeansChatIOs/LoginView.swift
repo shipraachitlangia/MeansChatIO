@@ -12,7 +12,8 @@ struct LoginView: View {
     @State private var password: String = ""
     @State private var isToPresentRegister: Bool = false
     @State private var isToPresentConnection: Bool = false
-
+    @StateObject private var viewModel = LoginViewModel()
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -38,7 +39,11 @@ struct LoginView: View {
                 .padding()
                 
                 ThemeButtonView(title: "Login") {
-                    isToPresentConnection.toggle()
+                    viewModel.signIn(email: email, password: password) { isSignIn in
+                        if isSignIn {
+                            isToPresentConnection.toggle()
+                        }
+                    }
                 }
                 .padding()
                 
@@ -46,7 +51,11 @@ struct LoginView: View {
                     .padding()
                 
                 GoogleButtonView() {
-                    
+                    viewModel.signInWithGoogle(){isSignIn in
+                        if isSignIn {
+                            isToPresentConnection.toggle()
+                        }
+                    }
                 }
                 .padding()
                             
@@ -59,15 +68,25 @@ struct LoginView: View {
                 
             }
         }
+        
         .frame(minWidth: 0, maxWidth: .infinity)
         .scrollIndicators(.hidden)
         .background(Color(.BackgroundColor))
         .fullScreenCover(isPresented: $isToPresentRegister, content: {
-            RegisterView()
+            RegisterView(isPresentRegister: $isToPresentRegister)
         })
         .fullScreenCover(isPresented: $isToPresentConnection, content: {
-            ConnectionsView()
+            ConnectionsView(isPresentRegister: $isToPresentRegister)
         })
+        .alert(isPresented: $viewModel.isError) {
+            Alert(
+                title: Text("Error"),
+                message: Text(viewModel.errorMessage ?? "Something went wrong"),
+                dismissButton: .default(Text("OK"))
+            )
+        }
+        .environmentObject(viewModel)
+
     }
 }
 
