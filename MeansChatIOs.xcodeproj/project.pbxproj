@@ -14,6 +14,32 @@
 		188EC9AF2CF75BAA00D4F499 /* MeansChatIOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9AE2CF75BAA00D4F499 /* MeansChatIOsTests.swift */; };
 		188EC9B92CF75BAA00D4F499 /* MeansChatIOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9B82CF75BAA00D4F499 /* MeansChatIOsUITests.swift */; };
 		188EC9BB2CF75BAA00D4F499 /* MeansChatIOsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9BA2CF75BAA00D4F499 /* MeansChatIOsUITestsLaunchTests.swift */; };
+		188EC9C82CF75C1200D4F499 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9C72CF75C1200D4F499 /* LoginView.swift */; };
+		188EC9CD2CF75C1E00D4F499 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9C92CF75C1E00D4F499 /* RegisterView.swift */; };
+		188EC9CE2CF75C1E00D4F499 /* ChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9CA2CF75C1E00D4F499 /* ChatMessageView.swift */; };
+		188EC9CF2CF75C1E00D4F499 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9CB2CF75C1E00D4F499 /* ContactView.swift */; };
+		188EC9D02CF75C1E00D4F499 /* ConnectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9CC2CF75C1E00D4F499 /* ConnectionsView.swift */; };
+		188EC9DA2CF75C2A00D4F499 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9D12CF75C2A00D4F499 /* ConnectionView.swift */; };
+		188EC9DB2CF75C2A00D4F499 /* DividerWithTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9D22CF75C2A00D4F499 /* DividerWithTextView.swift */; };
+		188EC9DC2CF75C2A00D4F499 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9D32CF75C2A00D4F499 /* NoDataView.swift */; };
+		188EC9DD2CF75C2A00D4F499 /* TwoVerticalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9D42CF75C2A00D4F499 /* TwoVerticalTextView.swift */; };
+		188EC9DE2CF75C2A00D4F499 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9D52CF75C2A00D4F499 /* LogoView.swift */; };
+		188EC9DF2CF75C2A00D4F499 /* PlainTextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9D62CF75C2A00D4F499 /* PlainTextButtonView.swift */; };
+		188EC9E02CF75C2A00D4F499 /* TextFieldWithTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9D72CF75C2A00D4F499 /* TextFieldWithTitleView.swift */; };
+		188EC9E12CF75C2A00D4F499 /* TextWithButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9D82CF75C2A00D4F499 /* TextWithButtonView.swift */; };
+		188EC9E22CF75C2A00D4F499 /* ThemeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9D92CF75C2A00D4F499 /* ThemeButtonView.swift */; };
+		188EC9E92CF75C7C00D4F499 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9E72CF75C7C00D4F499 /* ColorConstants.swift */; };
+		188EC9EA2CF75C7C00D4F499 /* ImageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9E82CF75C7C00D4F499 /* ImageConstant.swift */; };
+		188EC9EE2CF75C9400D4F499 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9EC2CF75C9400D4F499 /* LoginViewModel.swift */; };
+		188EC9EF2CF75C9400D4F499 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC9ED2CF75C9400D4F499 /* ChatViewModel.swift */; };
+		188EC9F32CF75D1700D4F499 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 188EC9F22CF75D1700D4F499 /* FirebaseAuth */; };
+		188EC9F52CF75D1700D4F499 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 188EC9F42CF75D1700D4F499 /* FirebaseCore */; };
+		188EC9F82CF75D8300D4F499 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 188EC9F72CF75D8300D4F499 /* GoogleSignIn */; };
+		188EC9FA2CF75D8300D4F499 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 188EC9F92CF75D8300D4F499 /* GoogleSignInSwift */; };
+		188EC9FC2CF75DAE00D4F499 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188EC9FB2CF75DAE00D4F499 /* GoogleService-Info.plist */; };
+		188ECA032CF763DF00D4F499 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 188ECA022CF763DF00D4F499 /* StreamChat */; };
+		188ECA052CF763DF00D4F499 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 188ECA042CF763DF00D4F499 /* StreamChatUI */; };
+		188ECA072CF76C8C00D4F499 /* GoogleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ECA062CF76C8C00D4F499 /* GoogleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +70,27 @@
 		188EC9B42CF75BAA00D4F499 /* MeansChatIOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeansChatIOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188EC9B82CF75BAA00D4F499 /* MeansChatIOsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansChatIOsUITests.swift; sourceTree = "<group>"; };
 		188EC9BA2CF75BAA00D4F499 /* MeansChatIOsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansChatIOsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		188EC9C72CF75C1200D4F499 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		188EC9C92CF75C1E00D4F499 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		188EC9CA2CF75C1E00D4F499 /* ChatMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageView.swift; sourceTree = "<group>"; };
+		188EC9CB2CF75C1E00D4F499 /* ContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		188EC9CC2CF75C1E00D4F499 /* ConnectionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionsView.swift; sourceTree = "<group>"; };
+		188EC9D12CF75C2A00D4F499 /* ConnectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		188EC9D22CF75C2A00D4F499 /* DividerWithTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DividerWithTextView.swift; sourceTree = "<group>"; };
+		188EC9D32CF75C2A00D4F499 /* NoDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		188EC9D42CF75C2A00D4F499 /* TwoVerticalTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoVerticalTextView.swift; sourceTree = "<group>"; };
+		188EC9D52CF75C2A00D4F499 /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		188EC9D62CF75C2A00D4F499 /* PlainTextButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainTextButtonView.swift; sourceTree = "<group>"; };
+		188EC9D72CF75C2A00D4F499 /* TextFieldWithTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldWithTitleView.swift; sourceTree = "<group>"; };
+		188EC9D82CF75C2A00D4F499 /* TextWithButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextWithButtonView.swift; sourceTree = "<group>"; };
+		188EC9D92CF75C2A00D4F499 /* ThemeButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeButtonView.swift; sourceTree = "<group>"; };
+		188EC9E72CF75C7C00D4F499 /* ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		188EC9E82CF75C7C00D4F499 /* ImageConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConstant.swift; sourceTree = "<group>"; };
+		188EC9EC2CF75C9400D4F499 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		188EC9ED2CF75C9400D4F499 /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		188EC9FB2CF75DAE00D4F499 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		188EC9FD2CF75DC700D4F499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		188ECA062CF76C8C00D4F499 /* GoogleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +98,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188ECA052CF763DF00D4F499 /* StreamChatUI in Frameworks */,
+				188EC9F52CF75D1700D4F499 /* FirebaseCore in Frameworks */,
+				188EC9F32CF75D1700D4F499 /* FirebaseAuth in Frameworks */,
+				188ECA032CF763DF00D4F499 /* StreamChat in Frameworks */,
+				188EC9F82CF75D8300D4F499 /* GoogleSignIn in Frameworks */,
+				188EC9FA2CF75D8300D4F499 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +147,16 @@
 		188EC99C2CF75BA800D4F499 /* MeansChatIOs */ = {
 			isa = PBXGroup;
 			children = (
+				188EC9FD2CF75DC700D4F499 /* Info.plist */,
+				188EC9FB2CF75DAE00D4F499 /* GoogleService-Info.plist */,
+				188EC9F02CF75C9900D4F499 /* ViewModel */,
+				188EC9EB2CF75C8600D4F499 /* Constants */,
+				188EC9E42CF75C4200D4F499 /* View */,
+				188EC9C72CF75C1200D4F499 /* LoginView.swift */,
+				188EC9CA2CF75C1E00D4F499 /* ChatMessageView.swift */,
+				188EC9CC2CF75C1E00D4F499 /* ConnectionsView.swift */,
+				188EC9CB2CF75C1E00D4F499 /* ContactView.swift */,
+				188EC9C92CF75C1E00D4F499 /* RegisterView.swift */,
 				188EC99D2CF75BA800D4F499 /* MeansChatIOsApp.swift */,
 				188EC99F2CF75BA800D4F499 /* ContentView.swift */,
 				188EC9A12CF75BAA00D4F499 /* Assets.xcassets */,
@@ -127,6 +190,49 @@
 			path = MeansChatIOsUITests;
 			sourceTree = "<group>";
 		};
+		188EC9E32CF75C3300D4F499 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				188EC9D12CF75C2A00D4F499 /* ConnectionView.swift */,
+				188EC9D22CF75C2A00D4F499 /* DividerWithTextView.swift */,
+				188EC9D52CF75C2A00D4F499 /* LogoView.swift */,
+				188EC9D32CF75C2A00D4F499 /* NoDataView.swift */,
+				188EC9D62CF75C2A00D4F499 /* PlainTextButtonView.swift */,
+				188EC9D72CF75C2A00D4F499 /* TextFieldWithTitleView.swift */,
+				188EC9D82CF75C2A00D4F499 /* TextWithButtonView.swift */,
+				188EC9D92CF75C2A00D4F499 /* ThemeButtonView.swift */,
+				188EC9D42CF75C2A00D4F499 /* TwoVerticalTextView.swift */,
+				188ECA062CF76C8C00D4F499 /* GoogleButtonView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		188EC9E42CF75C4200D4F499 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188EC9E32CF75C3300D4F499 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		188EC9EB2CF75C8600D4F499 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				188EC9E72CF75C7C00D4F499 /* ColorConstants.swift */,
+				188EC9E82CF75C7C00D4F499 /* ImageConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		188EC9F02CF75C9900D4F499 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				188EC9ED2CF75C9400D4F499 /* ChatViewModel.swift */,
+				188EC9EC2CF75C9400D4F499 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +249,14 @@
 			dependencies = (
 			);
 			name = MeansChatIOs;
+			packageProductDependencies = (
+				188EC9F22CF75D1700D4F499 /* FirebaseAuth */,
+				188EC9F42CF75D1700D4F499 /* FirebaseCore */,
+				188EC9F72CF75D8300D4F499 /* GoogleSignIn */,
+				188EC9F92CF75D8300D4F499 /* GoogleSignInSwift */,
+				188ECA022CF763DF00D4F499 /* StreamChat */,
+				188ECA042CF763DF00D4F499 /* StreamChatUI */,
+			);
 			productName = MeansChatIOs;
 			productReference = 188EC99A2CF75BA800D4F499 /* MeansChatIOs.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +329,11 @@
 				Base,
 			);
 			mainGroup = 188EC9912CF75BA800D4F499;
+			packageReferences = (
+				188EC9F12CF75D1700D4F499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				188EC9F62CF75D8300D4F499 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				188ECA012CF763DF00D4F499 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+			);
 			productRefGroup = 188EC99B2CF75BA800D4F499 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +352,7 @@
 			files = (
 				188EC9A52CF75BAA00D4F499 /* Preview Assets.xcassets in Resources */,
 				188EC9A22CF75BAA00D4F499 /* Assets.xcassets in Resources */,
+				188EC9FC2CF75DAE00D4F499 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +377,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188EC9DF2CF75C2A00D4F499 /* PlainTextButtonView.swift in Sources */,
+				188EC9CE2CF75C1E00D4F499 /* ChatMessageView.swift in Sources */,
+				188EC9E92CF75C7C00D4F499 /* ColorConstants.swift in Sources */,
+				188EC9E12CF75C2A00D4F499 /* TextWithButtonView.swift in Sources */,
+				188EC9DE2CF75C2A00D4F499 /* LogoView.swift in Sources */,
+				188EC9D02CF75C1E00D4F499 /* ConnectionsView.swift in Sources */,
+				188EC9DD2CF75C2A00D4F499 /* TwoVerticalTextView.swift in Sources */,
+				188EC9DA2CF75C2A00D4F499 /* ConnectionView.swift in Sources */,
+				188EC9CF2CF75C1E00D4F499 /* ContactView.swift in Sources */,
+				188EC9C82CF75C1200D4F499 /* LoginView.swift in Sources */,
+				188EC9DC2CF75C2A00D4F499 /* NoDataView.swift in Sources */,
+				188EC9E22CF75C2A00D4F499 /* ThemeButtonView.swift in Sources */,
+				188ECA072CF76C8C00D4F499 /* GoogleButtonView.swift in Sources */,
+				188EC9DB2CF75C2A00D4F499 /* DividerWithTextView.swift in Sources */,
+				188EC9EA2CF75C7C00D4F499 /* ImageConstant.swift in Sources */,
+				188EC9CD2CF75C1E00D4F499 /* RegisterView.swift in Sources */,
 				188EC9A02CF75BA800D4F499 /* ContentView.swift in Sources */,
 				188EC99E2CF75BA800D4F499 /* MeansChatIOsApp.swift in Sources */,
+				188EC9EE2CF75C9400D4F499 /* LoginViewModel.swift in Sources */,
+				188EC9EF2CF75C9400D4F499 /* ChatViewModel.swift in Sources */,
+				188EC9E02CF75C2A00D4F499 /* TextFieldWithTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +564,10 @@
 				DEVELOPMENT_TEAM = JHL639983G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeansChatIOs/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "We need access to your contacts to display them in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -435,7 +575,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIOs;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,9 +595,10 @@
 				DEVELOPMENT_TEAM = JHL639983G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeansChatIOs/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "We need access to your contacts to display them in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,7 +606,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIOs;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = shipra.MeansChatIO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -588,6 +731,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		188EC9F12CF75D1700D4F499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		188EC9F62CF75D8300D4F499 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		188ECA012CF763DF00D4F499 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-chat-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.67.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		188EC9F22CF75D1700D4F499 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188EC9F12CF75D1700D4F499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		188EC9F42CF75D1700D4F499 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188EC9F12CF75D1700D4F499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		188EC9F72CF75D8300D4F499 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188EC9F62CF75D8300D4F499 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		188EC9F92CF75D8300D4F499 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188EC9F62CF75D8300D4F499 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		188ECA022CF763DF00D4F499 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188ECA012CF763DF00D4F499 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		188ECA042CF763DF00D4F499 /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188ECA012CF763DF00D4F499 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 188EC9922CF75BA800D4F499 /* Project object */;
 }
