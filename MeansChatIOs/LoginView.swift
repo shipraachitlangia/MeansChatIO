@@ -76,7 +76,7 @@ struct LoginView: View {
             RegisterView(isPresentRegister: $isToPresentRegister)
         })
         .fullScreenCover(isPresented: $isToPresentConnection, content: {
-            ConnectionsView(isPresentRegister: $isToPresentRegister)
+            ConnectionsView()
         })
         .alert(isPresented: $viewModel.isError) {
             Alert(
