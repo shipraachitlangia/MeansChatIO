@@ -16,7 +16,7 @@ struct RegisterView: View {
     @State private var isToPresentConnection: Bool = false
     @EnvironmentObject var viewModel: LoginViewModel
     @Binding var isPresentRegister: Bool
-
+    
     var body: some View {
         NavigationStack {
             ScrollView() {
@@ -61,12 +61,12 @@ struct RegisterView: View {
                     TextFieldWithTitleView(title: "Confirm Password", placeholder: "Enter your confirm password", text: $confirmPassword, isPasswordTextField: true)
                     
                     ThemeButtonView(title: "Register") {
-//                        viewModel.signUp(email: email, password: password) { isSignUpSuccess in
-//                            if isSignUpSuccess {
+                        viewModel.signUp(email: email, password: password) { isSignUpSuccess in
+                            if isSignUpSuccess {
                                 isToPresentConnection.toggle()
                                 
-//                            }
-//                        }
+                            }
+                        }
                     }
                     .padding()
                     
@@ -83,7 +83,7 @@ struct RegisterView: View {
             .background(Color(.BackgroundColor))
             .navigationBarBackButtonHidden()
             .navigationDestination(isPresented: $isToPresentConnection) {
-                ConnectionsView(isPresentRegister: $isPresentRegister)
+                ConnectionsView()
                 
             }
             

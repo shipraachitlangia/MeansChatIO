@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18320BA52CF9A16B00A1B960 /* FiraCode-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18CAFF6D2CF85B1800E29FF8 /* FiraCode-Light.ttf */; };
+		18320BA62CF9A16B00A1B960 /* FiraCode-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18CAFF6F2CF85B1800E29FF8 /* FiraCode-Bold.ttf */; };
+		18320BA72CF9A16B00A1B960 /* FiraCode-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18CAFF6E2CF85B1800E29FF8 /* FiraCode-Medium.ttf */; };
+		18320BA82CF9A16B00A1B960 /* FiraCode-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18CAFF6C2CF85B1800E29FF8 /* FiraCode-SemiBold.ttf */; };
+		18320BA92CF9A16B00A1B960 /* FiraCode-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18CAFF6B2CF85B1700E29FF8 /* FiraCode-Regular.ttf */; };
+		1836A3AB2CF8C3A10066B4DC /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1836A3AA2CF8C3A10066B4DC /* StreamChatSwiftUI */; };
 		188EC99E2CF75BA800D4F499 /* MeansChatIOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC99D2CF75BA800D4F499 /* MeansChatIOsApp.swift */; };
 		188EC9A02CF75BA800D4F499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EC99F2CF75BA800D4F499 /* ContentView.swift */; };
 		188EC9A22CF75BAA00D4F499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188EC9A12CF75BAA00D4F499 /* Assets.xcassets */; };
@@ -107,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1836A3AB2CF8C3A10066B4DC /* StreamChatSwiftUI in Frameworks */,
 				188ECA052CF763DF00D4F499 /* StreamChatUI in Frameworks */,
 				188EC9F52CF75D1700D4F499 /* FirebaseCore in Frameworks */,
 				188EC9F32CF75D1700D4F499 /* FirebaseAuth in Frameworks */,
@@ -288,6 +295,7 @@
 				188EC9F92CF75D8300D4F499 /* GoogleSignInSwift */,
 				188ECA022CF763DF00D4F499 /* StreamChat */,
 				188ECA042CF763DF00D4F499 /* StreamChatUI */,
+				1836A3AA2CF8C3A10066B4DC /* StreamChatSwiftUI */,
 			);
 			productName = MeansChatIOs;
 			productReference = 188EC99A2CF75BA800D4F499 /* MeansChatIOs.app */;
@@ -365,6 +373,7 @@
 				188EC9F12CF75D1700D4F499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				188EC9F62CF75D8300D4F499 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				188ECA012CF763DF00D4F499 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+				1836A3A92CF8C3A10066B4DC /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */,
 			);
 			productRefGroup = 188EC99B2CF75BA800D4F499 /* Products */;
 			projectDirPath = "";
@@ -382,6 +391,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18320BA62CF9A16B00A1B960 /* FiraCode-Bold.ttf in Resources */,
+				18320BA82CF9A16B00A1B960 /* FiraCode-SemiBold.ttf in Resources */,
+				18320BA52CF9A16B00A1B960 /* FiraCode-Light.ttf in Resources */,
+				18320BA72CF9A16B00A1B960 /* FiraCode-Medium.ttf in Resources */,
+				18320BA92CF9A16B00A1B960 /* FiraCode-Regular.ttf in Resources */,
 				188EC9A52CF75BAA00D4F499 /* Preview Assets.xcassets in Resources */,
 				188EC9A22CF75BAA00D4F499 /* Assets.xcassets in Resources */,
 				188EC9FC2CF75DAE00D4F499 /* GoogleService-Info.plist in Resources */,
@@ -600,6 +614,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeansChatIOs/Info.plist;
 				INFOPLIST_KEY_NSContactsUsageDescription = "We need access to your contacts to display them in the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to the photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -631,6 +646,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeansChatIOs/Info.plist;
 				INFOPLIST_KEY_NSContactsUsageDescription = "We need access to your contacts to display them in the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to the photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -767,6 +783,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		1836A3A92CF8C3A10066B4DC /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.67.0;
+			};
+		};
 		188EC9F12CF75D1700D4F499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -794,6 +818,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1836A3AA2CF8C3A10066B4DC /* StreamChatSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1836A3A92CF8C3A10066B4DC /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */;
+			productName = StreamChatSwiftUI;
+		};
 		188EC9F22CF75D1700D4F499 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 188EC9F12CF75D1700D4F499 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
